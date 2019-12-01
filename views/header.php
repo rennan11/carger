@@ -31,12 +31,29 @@
                                 Empresa
                             </a>
                         </li>
+                        <?php
+                            if(isset($_GET['usuario']) || isset($_GET['cnpj']))
+                            {
+                        ?>
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?php echo URL_PREFIX; ?>index.php">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    Sair
+                                </a>
+                            </li>
+                        <?php
+                            }else {
+                        ?>
+                        
                         <li class="nav-item">
-                                <a class="nav-link" href="<?php echo URL_PREFIX; ?>login">
+                                <a class="nav-link" href="<?php echo URL_PREFIX; ?>login.php">
                                     <i class="nc-icon nc-user-run"></i>
                                     Entrar
                                 </a>
                         </li>
+                        <?php
+                        }
+                        ?>
                     </ul>
                 </div>
             </div>

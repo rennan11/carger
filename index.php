@@ -38,12 +38,12 @@ include_once("views/header.php");
             <div class="container card-fixed">
                 <div class="card-body">
                     <h3 class="card-title title">Cadastre-se sua empresa aqui</h3>
-                    <form class="card-text form-group">
-                        <input type="text" class="form-control" placeholder="Nome da Empresa"><br>
-                        <input type="text" class="form-control" placeholder="CNPJ"><br>
-                        <input type="email" class="form-control" placeholder="Email"><br>
-                        <input type="password" class="form-control" placeholder="Senha"><br>
-                        <input type="submit" class="btn btn-dark col-sm-6" value="Cadastrar-se">
+                    <form class="card-text form-group" method="get" action="cadastro.php">
+                        <input type="text" class="form-control" name="nome" placeholder="Nome da Empresa" required><br>
+                        <input type="text" class="form-control" name="usuario" placeholder="Nome de Usuário" required><br>
+                        <input type="email" class="form-control" name="email" placeholder="Email" required><br>
+                        <input type="password" class="form-control" name="senha" placeholder="Senha" required><br>
+                        <input type="submit" class="btn btn-dark col-sm-6" value="Cadastre-se"><br>
                     </form>
                 </div>
             </div>

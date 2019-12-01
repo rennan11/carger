@@ -44,6 +44,10 @@ option:first-letter {
     margin: 1.75rem auto !important;
 }
 
+.noshow {
+    display: none;
+}
+
 .control-label {
     font-weight: bold;
 }
@@ -56,4 +60,8 @@ option:first-letter {
     background: white;
     border-radius: 15px;
     box-shadow: #000 0 0 10px;
+}
+
+.space-wrapper {
+    flex: 1 1 auto;
 }
