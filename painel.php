@@ -84,8 +84,8 @@ include_once("views/header.php");
                 <input type="text" name="cepdestino" class="form-control" placeholder="CEP de destino" required><br>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" onclick="criarcarga()" data-dismiss="modal">Save changes</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button><br><br><br>
+                <button type="button" class="btn btn-success" onclick="criarcarga()" data-dismiss="modal">Cadastrar Carga</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button><br><br><br>
             </div>
             </div>
         </div>
