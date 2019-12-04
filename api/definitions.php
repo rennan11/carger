@@ -46,3 +46,5 @@ if(SHOW_QUERIES || DEBUG) {
 }
 
 define("DEFAULT_RESPONSE", BASE_URL);
+
+$logged_in = false;

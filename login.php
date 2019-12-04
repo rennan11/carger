@@ -16,8 +16,8 @@ include_once("views/header.php");
         <div class="card-body">
             <h3 class="card-title title">Entre com seus dados abaixo:</h3>
             <form class="card-text form-group" method="get" action="painel.php">
-                <input type="text" class="form-control" name="usuario" placeholder="Nome de Usuário" required><br>
-                <input type="password" class="form-control" name="senha" placeholder="Senha" required><br>
+                <input type="text" class="form-control" name="usuario" placeholder="Nome de Usuário"><br>
+                <input type="password" class="form-control" name="senha" placeholder="Senha"><br>
                 <input type="submit" class="btn btn-dark col-sm-4" value="Entrar">
                 </form>
         </div>

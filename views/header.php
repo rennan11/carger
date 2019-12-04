@@ -13,7 +13,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <!--<li class="nav-item">
                             <a class="nav-link" href="<?php echo URL_PREFIX; ?>help">
                                 <i class="fas fa-question"></i>
                                 Ajuda
@@ -30,9 +30,9 @@
                                 <i class="far fa-building"></i>
                                 Empresa
                             </a>
-                        </li>
+                        </li>-->
                         <?php
-                            if(isset($_GET['usuario']) || isset($_GET['cnpj']))
+                            if($logged_in == true)
                             {
                         ?>
                             <li class="nav-item">
